@@ -8,5 +8,10 @@ import {TimeLock} from "../src/TimeLock.sol";
 import {GovToken} from "../src/GovToken.sol";
 
 contract MyGovernorTest is Test {
+    MyGovernor governor;
+    Box box;
+    TimeLock timeLock;
+    GovToken govToken;
+
     function setUp() public {}
 }
